@@ -19,7 +19,7 @@ public class Knowledge {
 
 	public void build() {
 		for(KnowledgeProvider provider:providers){
-			provider.build(this);
+			provider.build();
 		}
 	}
 
